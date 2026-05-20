@@ -12,7 +12,7 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 
 | Resource | Description |
 |---|---|
-| [stardelt-docs](https://docs.stardelt.io) | Architecture, roadmap, and design spec |
+| [stardelt-docs](https://stardelt.io) | Architecture, roadmap, and design spec |
 
 ---
 
@@ -20,7 +20,7 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 
 | Repo | Description |
 |---|---|
-| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | Documentation site (docs.stardelt.io) |
+| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | Documentation site (stardelt.io) |
 | [stardelt-nova](https://github.com/stardelt/stardelt-nova) | Unified UI and API gateway — the control-plane front door |
 | [stardelt-operator](https://github.com/stardelt/stardelt-operator) | Kubernetes operator reconciling stardelt CRDs (Phase 1+) |
 | [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Production-shape Helm values, manifests, and install scripts |
@@ -37,14 +37,14 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 ## Get involved
 
 - Open an issue in the relevant repo
-- Read the architecture and design spec at [docs.stardelt.io](https://docs.stardelt.io)
+- Read the architecture and design spec at [stardelt.io](https://stardelt.io)
 - Star the repos you want to follow
 
 ---
 
 ## License
 
-Apache 2.0. All distributed upstream components carry permissive OSI licenses — see [stardelt-docs](https://docs.stardelt.io) for the full license matrix.
+Apache 2.0. All distributed upstream components carry permissive OSI licenses — see [stardelt-docs](https://stardelt.io) for the full license matrix.
 
 ---
 
