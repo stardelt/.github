@@ -6,6 +6,8 @@
 
 Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permissive OSI licenses only, zero phone-home.
 
+> ⚠️ **Pre-alpha.** stardelt is in an MVP / vibecoding phase — moving fast, iterating in the open, and breaking things on purpose. Expect rough edges, hard-coded defaults, and APIs that will change without notice. Not ready for any kind of production use.
+
 ---
 
 ## Where to start
@@ -30,7 +32,7 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 
 ## Status
 
-**Phase 0** — design complete. The MVP lakehouse slice (Trino + Lakekeeper + Iceberg + SeaweedFS + Airflow + Superset + Nova) runs end-to-end on kind. The Kubernetes operator (Phase 1, Stage 4) is the next milestone.
+**Pre-alpha · MVP / vibecoding phase.** The lakehouse slice (Trino + Lakekeeper + Iceberg + SeaweedFS + Airflow + Superset + Nova) runs end-to-end on kind. The Kubernetes operator is the next milestone. Development is fast and unstable — pin your own versions if you experiment with it.
 
 ---
 
