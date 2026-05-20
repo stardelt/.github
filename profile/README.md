@@ -1,6 +1,6 @@
-![Stardelt](https://docs.stardelt.io/img/logo.svg)
+<img src="logo-wordmark.svg" alt="stardelt" height="64" />
 
-# Stardelt
+# stardelt
 
 **The open-source data platform you actually own.**
 
@@ -13,7 +13,6 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 | Resource | Description |
 |---|---|
 | [stardelt-docs](https://docs.stardelt.io) | Architecture, roadmap, and design spec |
-| [stardelt-www](https://stardelt.io) | Marketing site |
 
 ---
 
@@ -21,10 +20,9 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 
 | Repo | Description |
 |---|---|
-| [stardelt-www](https://github.com/stardelt/stardelt-www) | Marketing site (stardelt.io) |
 | [stardelt-docs](https://github.com/stardelt/stardelt-docs) | Documentation site (docs.stardelt.io) |
 | [stardelt-nova](https://github.com/stardelt/stardelt-nova) | Unified UI and API gateway — the control-plane front door |
-| [stardelt-operator](https://github.com/stardelt/stardelt-operator) | Kubernetes operator reconciling Stardelt CRDs (Phase 1+) |
+| [stardelt-operator](https://github.com/stardelt/stardelt-operator) | Kubernetes operator reconciling stardelt CRDs (Phase 1+) |
 | [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Production-shape Helm values, manifests, and install scripts |
 | [stardelt-demos](https://github.com/stardelt/stardelt-demos) | kind/k3s laptop demos and sample workloads |
 
@@ -50,4 +48,4 @@ Apache 2.0. All distributed upstream components carry permissive OSI licenses �
 
 ---
 
-<sub>*Stardelt is a community project, not affiliated with any vendor or foundation.*</sub>
+<sub>*stardelt is a community project, not affiliated with any vendor or foundation.*</sub>
