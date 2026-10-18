@@ -32,7 +32,7 @@ Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permi
 
 ## Status
 
-**Pre-alpha · MVP / vibecoding phase.** The lakehouse slice (Trino + Lakekeeper + Iceberg + SeaweedFS + Airflow + Superset + Nova) runs end-to-end on kind. The Kubernetes operator is the next milestone. Development is fast and unstable — pin your own versions if you experiment with it.
+**Pre-alpha · MVP / vibecoding phase.** The lakehouse slice (SeaweedFS + CloudNative-PG + Lakekeeper + Trino + Nova, with JupyterHub) runs end-to-end on a single-node k3s dev cluster (Hetzner) and on kind. The Kubernetes operator already reconciles `Tenant`, `PlatformInstance` and `Lakehouse` resources (dry-run by default); making it the platform's baseline install is the current milestone. Development is fast and unstable — pin your own versions if you experiment with it.
 
 ---
 
