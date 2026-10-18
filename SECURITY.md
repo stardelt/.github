@@ -8,11 +8,9 @@ only), and a vulnerability in that promise matters.
 
 **Do not open a public issue with exploit details.**
 
-1. Open the repository the problem is in, go to **Security → Report a vulnerability**
-   (GitHub private vulnerability reporting).
-2. If that button is not available on the repository, open a public issue that says only
-   *"I would like to report a security problem privately"* — no details — and a maintainer will
-   arrange a private channel.
+Open the repository the problem is in, go to **Security → Report a vulnerability**
+(GitHub private vulnerability reporting, enabled on every stardelt repository), and describe it
+there. Only the maintainers can see the report.
 
 Please include the affected repo and version/commit, what an attacker can do, and the steps to
 reproduce.
