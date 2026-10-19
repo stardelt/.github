@@ -11,6 +11,9 @@ If you cannot fill a section, the ticket is not ready: say so under "Open questi
 Guide with a worked example: https://stardelt.io/developer/contributing#writing-a-ticket
 -->
 
+## Milestone and priority
+Set both when you create the ticket: a milestone (`v0.1` … `v1.0`) and a priority label (`P0` … `P3`). Work is taken in this order: lowest milestone, `P0` first, lowest issue number.
+
 ## Why (2–3 sentences)
 What is wrong or missing, and who notices. Link the spec section or work package if there is one (e.g. `master-spec §6`, `WP-12`).
 
