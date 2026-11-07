@@ -4,49 +4,51 @@
 
 **The open-source data platform you actually own.**
 
-Lakehouse · Batch ETL · Streaming · ML/AI on any Kubernetes cluster — permissive OSI licenses only, zero phone-home.
-
-> ⚠️ **Pre-alpha.** stardelt is in an MVP / vibecoding phase — moving fast, iterating in the open, and breaking things on purpose. Expect rough edges, hard-coded defaults, and APIs that will change without notice. Not ready for any kind of production use.
+SQL over Iceberg tables, notebooks, schedules and dashboards with one sign-in, on any Kubernetes cluster. Permissive licenses only, no phone-home, no license server.
 
 ---
 
 ## Where to start
 
-| Resource | Description |
+| | |
 |---|---|
-| [stardelt-docs](https://stardelt.io) | Architecture, roadmap, and design spec |
+| [Quickstart](https://stardelt.io/docs/getting-started/quickstart) | Install the core, load a file, query it |
+| [How it works](https://stardelt.io/docs/architecture/how-it-works) | One picture of the platform |
+| [Roadmap](https://stardelt.io/docs/roadmap) | What works today and what comes next |
+| [Contribute](https://stardelt.io/docs/developer) | Repositories, checks and good first steps |
 
 ---
 
-## The codebase
+## The repositories
 
-| Repo | Description |
+| Repository | What it is |
 |---|---|
-| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | Documentation site (stardelt.io) |
-| [stardelt-nova](https://github.com/stardelt/stardelt-nova) | Unified UI and API gateway — the control-plane front door |
-| [stardelt-operator](https://github.com/stardelt/stardelt-operator) | Kubernetes operator reconciling stardelt CRDs (Phase 1+) |
-| [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Production-shape Helm values, manifests, and install scripts |
-| [stardelt-demos](https://github.com/stardelt/stardelt-demos) | kind/k3s laptop demos and sample workloads |
+| [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Helm values, manifests and the one-command install |
+| [stardelt-nova](https://github.com/stardelt/stardelt-nova) | The interface and API: catalog, SQL editor, pipelines, query log, lineage |
+| [stardelt-operator](https://github.com/stardelt/stardelt-operator) | The Kubernetes operator and its resources |
+| [stardelt-python](https://github.com/stardelt/stardelt-python) | The Python package, command line and MCP server |
+| [stardelt-demos](https://github.com/stardelt/stardelt-demos) | Sample pipelines and the Airflow image |
+| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | The documentation at [stardelt.io](https://stardelt.io) |
 
 ---
 
 ## Status
 
-**Pre-alpha · MVP / vibecoding phase.** The lakehouse slice (SeaweedFS + CloudNative-PG + Lakekeeper + Trino + Nova, with JupyterHub) runs end-to-end on a single-node k3s dev cluster (Hetzner) and on kind. The Kubernetes operator already reconciles `Tenant`, `PlatformInstance` and `Lakehouse` resources (dry-run by default); making it the platform's baseline install is the current milestone. Development is fast and unstable — pin your own versions if you experiment with it.
+stardelt runs end to end: object storage, the Iceberg catalog, Trino, sign-in with table permissions by group, notebooks, scheduled pipelines and dashboards, installed with one command. There is no tagged release yet, so APIs and resources can still change. See the [roadmap](https://stardelt.io/docs/roadmap).
 
 ---
 
 ## Get involved
 
-- Open an issue in the relevant repo
-- Read the architecture and design spec at [stardelt.io](https://stardelt.io)
-- Star the repos you want to follow
+- Try the [Quickstart](https://stardelt.io/docs/getting-started/quickstart) and tell us what went wrong
+- Open an issue in the repository it concerns
+- Read [how to contribute](https://stardelt.io/docs/developer)
 
 ---
 
 ## License
 
-Apache 2.0. All distributed upstream components carry permissive OSI licenses — see [stardelt-docs](https://stardelt.io) for the full license matrix.
+Apache 2.0. Every component stardelt installs carries a permissive OSI license, with one documented exception: see the [license policy](https://stardelt.io/docs/architecture/licenses).
 
 ---
 
