@@ -23,6 +23,7 @@ SQL over Iceberg tables, notebooks, schedules and dashboards with one sign-in, o
 
 | Repository | What it is |
 |---|---|
+| [stardelt](https://github.com/stardelt/stardelt) | Start here: releases, the install manifest, questions and reports |
 | [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Helm values, manifests and the one-command install |
 | [stardelt-nova](https://github.com/stardelt/stardelt-nova) | The interface and API: catalog, SQL editor, pipelines, query log, lineage |
 | [stardelt-operator](https://github.com/stardelt/stardelt-operator) | The Kubernetes operator and its resources |
