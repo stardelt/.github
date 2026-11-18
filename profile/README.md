@@ -34,17 +34,6 @@ If you like our work, [⭐ star the repository](https://github.com/stardelt/star
 | &nbsp;&nbsp;↳ [`demos/`](https://github.com/stardelt/stardelt/tree/main/demos) | Sample pipelines and the Airflow image |
 | [stardelt-docs](https://github.com/stardelt/stardelt-docs) | The documentation at [stardelt.io](https://stardelt.io) |
 
-The former `stardelt-platform`, `-nova`, `-operator`, `-python` and `-demos` repositories are archived. Their history and open issues moved into [stardelt](https://github.com/stardelt/stardelt).
-
----|---|
-| [⭐ stardelt](https://github.com/stardelt/stardelt) | Start here: releases, the install manifest, questions and reports |
-| [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Helm values, manifests and the one-command install |
-| [stardelt-nova](https://github.com/stardelt/stardelt-nova) | The interface and API: catalog, SQL editor, pipelines, query log, lineage |
-| [stardelt-operator](https://github.com/stardelt/stardelt-operator) | The Kubernetes operator and its resources |
-| [stardelt-python](https://github.com/stardelt/stardelt-python) | The Python package, command line and MCP server |
-| [stardelt-demos](https://github.com/stardelt/stardelt-demos) | Sample pipelines and the Airflow image |
-| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | The documentation at [stardelt.io](https://stardelt.io) |
-
 ---
 
 ## Status
