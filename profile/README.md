@@ -7,7 +7,8 @@
 SQL over Iceberg tables, notebooks, schedules and dashboards with one sign-in, on any Kubernetes cluster. Permissive licenses only, no phone-home, no license server.
 
 
-If you like our work [⭐ star this repository](https://github.com/stardelt/stardelt) 
+If you like our work, [⭐ star the repository](https://github.com/stardelt/stardelt).
+
 ---
 
 ## Where to start
@@ -25,6 +26,17 @@ If you like our work [⭐ star this repository](https://github.com/stardelt/star
 
 | Repository | What it is |
 |---|---|
+| [⭐ stardelt](https://github.com/stardelt/stardelt) | **The product, in one repository.** Releases, issues, questions and reports. Its folders: |
+| &nbsp;&nbsp;↳ [`platform/`](https://github.com/stardelt/stardelt/tree/main/platform) | Helm values, manifests and the one-command install |
+| &nbsp;&nbsp;↳ [`nova/`](https://github.com/stardelt/stardelt/tree/main/nova) | The interface and API: catalog, SQL editor, pipelines, query log, lineage |
+| &nbsp;&nbsp;↳ [`operator/`](https://github.com/stardelt/stardelt/tree/main/operator) | The Kubernetes operator and its resources |
+| &nbsp;&nbsp;↳ [`python/`](https://github.com/stardelt/stardelt/tree/main/python) | The Python package, command line and MCP server |
+| &nbsp;&nbsp;↳ [`demos/`](https://github.com/stardelt/stardelt/tree/main/demos) | Sample pipelines and the Airflow image |
+| [stardelt-docs](https://github.com/stardelt/stardelt-docs) | The documentation at [stardelt.io](https://stardelt.io) |
+
+The former `stardelt-platform`, `-nova`, `-operator`, `-python` and `-demos` repositories are archived. Their history and open issues moved into [stardelt](https://github.com/stardelt/stardelt).
+
+---|---|
 | [⭐ stardelt](https://github.com/stardelt/stardelt) | Start here: releases, the install manifest, questions and reports |
 | [stardelt-platform](https://github.com/stardelt/stardelt-platform) | Helm values, manifests and the one-command install |
 | [stardelt-nova](https://github.com/stardelt/stardelt-nova) | The interface and API: catalog, SQL editor, pipelines, query log, lineage |
@@ -44,14 +56,14 @@ stardelt runs end to end: object storage, the Iceberg catalog, Trino, sign-in wi
 ## Get involved
 
 - Try the [Quickstart](https://stardelt.io/docs/getting-started/quickstart) and tell us what went wrong
-- Open an issue in the repository it concerns
+- [Open an issue](https://github.com/stardelt/stardelt/issues/new/choose) in [stardelt](https://github.com/stardelt/stardelt), for any part of the platform
 - Read [how to contribute](https://stardelt.io/docs/developer)
 
 ---
 
 ## License
 
-Apache 2.0. Every component stardelt installs carries a permissive OSI license, with one documented exception: see the [license policy](https://stardelt.io/docs/architecture/licenses).
+Apache 2.0. Every component stardelt installs carries a permissive OSI license, apart from a short list of documented exceptions: see the [license policy](https://stardelt.io/docs/architecture/licenses).
 
 ---
 
